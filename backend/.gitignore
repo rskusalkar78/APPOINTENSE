@@ -1,0 +1,27 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Environment & Secrets ###
+.env
+*.env.local
+
+### IDE & Editors ###
+.idea
+*.iws
+*.iml
+*.ipr
+.vscode/
+.classpath
+.project
+.settings
+.factorypath
+.springBeans
+.sts4-cache
+
+### OS Files ###
+Thumbs.db
+Desktop.ini
+.DS_Store
