@@ -18,7 +18,7 @@ import { AxiosError } from 'axios';
 export const SlotsPage: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const navigate = useNavigate();
-  const { isAuthenticated } = useAuth();
+  const { isAuthenticated, user } = useAuth();
 
   const serviceIdParam = searchParams.get('serviceId');
 
